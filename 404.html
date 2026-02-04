@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Not Found - Irsad Ansari</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* Ensure canvas stays in background */
+      #canvas-bg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: linear-gradient(to bottom right, #f8fafc, #e2e8f0, #cbd5e1);
+      }
+    </style>
+  </head>
+
+  <body>
+    <canvas id="canvas-bg"></canvas>
+
+    <!-- ========== NAVIGATION ========== -->
+    <nav>
+      <a href="index.html" class="nav-brand">
+        <span class="logo-symbol">IA</span>
+        <span class="logo-text">Irsad Ansari</span>
+      </a>
+      <ul class="nav-list">
+        <li><a href="index.html">Back to Home</a></li>
+      </ul>
+    </nav>
+
+    <!-- ========== 404 CONTENT ========== -->
+    <section class="error-page">
+      <div class="error-content">
+        <h1 class="error-code">404</h1>
+        <h2>Page Not Found</h2>
+        <p>
+          Oops! The page you are looking for might have been removed, had its name
+          changed, or is temporarily unavailable.
+        </p>
+        <a href="index.html" class="btn btn-primary">Return Home</a>
+      </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+      <p>
+        &copy; 2026 Irsad Ansari. All rights reserved. | Designed & Built with
+        ❤️
+      </p>
+    </footer>
+
+    <!-- ========== SCRIPTS ========== -->
+    <!-- Typed.js is not needed here but script.js might expect it if not handled safely -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/index.min.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
